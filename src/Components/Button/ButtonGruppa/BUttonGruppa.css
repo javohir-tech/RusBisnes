@@ -1,0 +1,16 @@
+.button-lang{
+    border: 1px solid #2e7bff;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+    font-size: 14px;
+    font-weight: 600;
+}   
+
+#aylan{
+    background-color: #2e7bff;
+}
+
+#aylan2{
+    background-color: #2e7bff;
+}

@@ -1,0 +1,76 @@
+.my-position, .my-name{
+    color: #ffffff;
+    font-size: 3.75rem ;
+    font-weight: 700;
+}
+
+.under-line{
+    color: #ffffff;
+    height: 2px;
+    width: 330px;
+    border: 2px solid #2e7bff;
+    bottom: -10px;
+    left: 2px;
+}
+
+.my-info{
+    color: #ffffff;
+    font-weight: 400;
+    font-weight: 1.25rem;
+}
+
+.main-brand{
+    width: 64px;
+    display: none;
+}
+
+.main-section__pasport{
+    flex-direction: column;
+}
+
+.secret-box{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    display: none;
+}
+
+@media(max-width:776px){
+    .my-position{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .my-name{
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .under-line{
+        width: 150px;
+        top: -5px;
+    }
+
+    .main-brand{
+        display: block;
+    }
+
+    .name-box{
+        justify-content: center;
+    }
+
+    .main-section__pasport{
+        flex-direction: column-reverse;
+    }
+
+    .my-info{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .secret-box{
+        display: block;
+    }
+}

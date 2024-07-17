@@ -1,0 +1,32 @@
+.navbar-img{
+    width: 72px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.55;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease   ;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    border-color: #2e7bff;
+}
+
+.nav-link:active{
+    color: #ffffff  ;
+}
+
+@media(max-width: 776px){
+    .navbar-section{
+        background-color: #000000;
+    }
+
+    .navbar-toggler, .navbar-toggler-icon{
+        color: #ffffff;
+    }
+}
