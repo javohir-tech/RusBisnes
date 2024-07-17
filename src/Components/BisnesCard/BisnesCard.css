@@ -1,0 +1,66 @@
+.bisnes-card {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.bisnes-card__data {
+    color: #ffffff;
+    padding: 20px;
+}
+
+.left{
+    margin-left: auto;
+}
+
+.rigth{
+    margin-right: auto;
+}
+
+.bisnes-card__data h3,
+.card-info__item p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bisnes-card__data p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card-info__item h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.bisnes-card__button {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.bisnes-card__button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#card-1 {
+    background: url(../../assets/gelik.jpg);
+}
+
+#card-2 {
+    background: url(../../assets/summit.png);
+}
+
+@media(max-width:996px){
+    .bisnes-card{
+        width: 100%;
+    }
+}

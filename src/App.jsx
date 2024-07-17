@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarRu from './Sections/Navbar/Navbar'
 import MainSection from './Sections/Main/MainSection';
+import Result from './Sections/Result/Result';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,7 @@ function App() {
         <MainSection />
       </div>
       {/* result section */}
-      <p>result section</p>
+      <Result/>
       {/* contact section */}
       <p>contact section</p>
       {/* advice section */}

@@ -1,0 +1,16 @@
+.result-section__title{
+    font-weight: 700;
+    font-size: 3.1rem;
+}
+
+.result-section__subtitle{
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 50%;
+}
+
+@media(max-width:996px){
+    .result-section__subtitle{
+        width: 100%;
+    }
+}
