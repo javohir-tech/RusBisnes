@@ -9,6 +9,11 @@
     width: 50%;
 }
 
+.open-button{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
 @media(max-width:996px){
     .result-section__subtitle{
         width: 100%;

@@ -13,7 +13,7 @@ export default function BisnesCard({ id, style,styletwo, title, subtitle, reklam
                         </div>
                         <div className='d-flex flex-column-reverse bisnes-card__info flex-md-row-reverse'>
                             <div className='card-info__item me-2'>
-                                <h2>{benefit}$</h2>
+                                <h2>{benefit}</h2>
                                 <p>{benefitTitle}</p>
                             </div>
                             <div className='card-info__item ms-3 me-3'>
@@ -21,7 +21,7 @@ export default function BisnesCard({ id, style,styletwo, title, subtitle, reklam
                                 <p>{sellTitle}</p>
                             </div>
                             <div className='card-info__item'>
-                                <h2>{reklam}$</h2>
+                                <h2>{reklam}</h2>
                                 <p>{reklamTitle}</p>
                             </div>
                         </div>
