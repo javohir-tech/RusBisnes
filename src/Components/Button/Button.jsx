@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 export default function ButtonCom({text, style}) {
   return (
     <div>
-       <button className={style}>{text}</button>
+       <button className={style} type='submit'>{text}</button>
     </div>
   )
 }

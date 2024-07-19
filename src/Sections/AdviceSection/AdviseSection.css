@@ -1,0 +1,37 @@
+.left-col{
+    position: relative;
+    bottom: 150px;
+}
+
+.advise-section__header{
+    width: 50%;
+     h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 4rem;
+     }
+
+     p{
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 2rem;
+     }
+}
+
+.under-header{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 2.2rem;
+}
+
+
+@media(max-width:776px){
+    .advise-section__header{
+        width: 100%;
+    }
+
+    .left-col{
+        position: static;
+        bottom: 0px;
+    }
+}

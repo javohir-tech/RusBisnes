@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarRu from './Sections/Navbar/Navbar'
 import MainSection from './Sections/Main/MainSection';
 import Result from './Sections/Result/Result';
+import ContactSection from './Sections/ContactSection/ContactSection';
+import AdviseSection from './Sections/AdviceSection/AdviseSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,9 +23,9 @@ function App() {
       {/* result section */}
       <Result/>
       {/* contact section */}
-      <p>contact section</p>
+      <ContactSection/>
       {/* advice section */}
-      <p>advise section</p>
+      <AdviseSection/>
       {/* clients section */}
       <p>clients section</p>
       {/* strategiya section */}
