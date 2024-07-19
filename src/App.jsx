@@ -9,6 +9,7 @@ import Result from './Sections/Result/Result';
 import ContactSection from './Sections/ContactSection/ContactSection';
 import AdviseSection from './Sections/AdviceSection/AdviseSection';
 import Slide from './Sections/SlideSection/Slide';
+import Strategiya from './Sections/StrategiyaSection/Strategiya';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +31,7 @@ function App() {
       {/* clients section */}
       <Slide/>
       {/* strategiya section */}
-      <p>strategiya section</p>
+      <Strategiya/>
       {/* bisnes section */}
       <p>bisnes section</p>
       {/* footer section */}

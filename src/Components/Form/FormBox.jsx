@@ -4,7 +4,7 @@ import { Form, Modal } from 'react-bootstrap'
 import ButtonCom from '../Button/Button'
 import axios from 'axios';
 
-export default function FormBox() {
+export default function FormBox({radius, subtitle}) {
 
     const [show, setShow] = useState(false);
 
@@ -57,10 +57,10 @@ export default function FormBox() {
 
     return (
         <div>
-            <div className="box text-center mx-auto position-relative">
+            <div className={`box text-center mx-auto position-relative ${radius}`}>
                 {/* <span className='position-absolute w-100 h-100 nestet-box'></span> */}
                 <h3 className='form-box__title'>СТРАТЕГИЯ БЕСПЛАТНО</h3>
-                <p className='form-box__subtitle'>Напишу стратегию по Таргетированной Рекламе для Вашей компании бесплатно и презентую ее!КЕЙСЫОТЗЫВЫКОНТАКТЫ</p>
+                <p className='form-box__subtitle'>{subtitle}</p>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-4">
                         <Form.Control type="text" placeholder="Имя" onChange={(e) => setName(e.target.value)} value={name} required className='rounded-pill' />

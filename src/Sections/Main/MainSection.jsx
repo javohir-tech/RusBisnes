@@ -27,7 +27,7 @@ export default function MainSection() {
                             <p className='my-info'>Увеличу продажи с помощью рекламы в интернете и предоставлю первые обращения клиентов уже через 48 часов</p>
                         </div>
                         <div className="col-md-6">
-                            <FormBox />
+                            <FormBox subtitle={'Напишу стратегию по Таргетированной Рекламе для Вашей компании бесплатно и презентую ее!'}/>
                         </div>
                     </div>
                 </div>
