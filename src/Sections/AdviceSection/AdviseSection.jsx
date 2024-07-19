@@ -20,43 +20,51 @@ export default function AdviseSection() {
                             ежемесячно привлекаю максимальное количество целевых обращений
                         </p>
                     </div>
-                    <div className="row g-5">
+                    <div className="row g-3">
                         <div className="col-md-6">
-                            <AdviseCard title={'Сергей'}
-                                subtitle={`Сергей Основатель крупнейшего ивент комьюнити. Open Event Club`}
-                                img={sergey}
-                                cardItem__1={'7400'}
-                                cardItem__2={'0,51$'}
-                                cardItem__3={'3600$'}
-                            />
+                            <div >
+                                <AdviseCard title={'Сергей'}
+                                    subtitle={`Сергей Основатель крупнейшего ивент комьюнити. Open Event Club`}
+                                    img={sergey}
+                                    cardItem__1={'7400'}
+                                    cardItem__2={'0,51$'}
+                                    cardItem__3={'3600$'}
+                                />
+                            </div>
                         </div>
                         <div className="col-md-6  left-col">
-                            <AdviseCard title={'Руслан'}
-                                subtitle={`Открытка кубики`}
-                                img={card__2}
-                                cardItem__1={'2000'}
-                                cardItem__2={'0,5$'}
-                                cardItem__3={'1000$'}
-                            />
+                            <div >
+                                <AdviseCard title={'Руслан'}
+                                    subtitle={`Открытка кубики`}
+                                    img={card__2}
+                                    cardItem__1={'2000'}
+                                    cardItem__2={'0,5$'}
+                                    cardItem__3={'1000$'}
+                                />
+                            </div>
                         </div>
                         <div className="col-md-6">
-                            <AdviseCard title={'Александр'}
-                                subtitle={`Александр Центральная Ипотечная Корпорация - привлечение клиентов на покупку квартир`}
-                                img={card__3}
-                                cardItem__1={'140'}
-                                cardItem__2={'3$'}
-                                cardItem__3={'420$'} />
+                            <div >
+                                <AdviseCard title={'Александр'}
+                                    subtitle={`Александр Центральная Ипотечная Корпорация - привлечение клиентов на покупку квартир`}
+                                    img={card__3}
+                                    cardItem__1={'140'}
+                                    cardItem__2={'3$'}
+                                    cardItem__3={'420$'} />
+                            </div>
                         </div>
                         <div className="col-md-6 left-col">
-                            <AdviseCard 
-                            title={'Руслан'}
-                            subtitle={`Промышленные котлы цель которых обогрев коммерческих площадей от 1000м2`}
-                            img={card__4}
-                            cardItem__1={'150'}
-                            cardItem__2={'2,5$'}
-                            cardItem__3={'450$'}/>
-                            <div className='d-flex align-items-center mt-5 pt-3'>
-                                <h1 className='under-header'>Хотите такой же результат?</h1><ButtonCom text={'ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ'} style={'main-button w-100'} />
+                            <div >
+                                <AdviseCard
+                                    title={'Руслан'}
+                                    subtitle={`Промышленные котлы цель которых обогрев коммерческих площадей от 1000м2`}
+                                    img={card__4}
+                                    cardItem__1={'150'}
+                                    cardItem__2={'2,5$'}
+                                    cardItem__3={'450$'} />
+                                <div className='d-flex align-items-center mt-5 pt-3'>
+                                    <h1 className='under-header'>Хотите такой же результат?</h1><ButtonCom text={'ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ'} style={'main-button w-100'} />
+                                </div>
                             </div>
                         </div>
                     </div>
