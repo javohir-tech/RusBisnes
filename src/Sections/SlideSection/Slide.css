@@ -1,0 +1,15 @@
+.slide-box{
+    text-align: center;
+    img{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+.slider-container .slide-box {
+    transition: transform 0.5s ease;
+  }
+  
+  .slick-center .slide-box {
+    transform: scale(1.1);
+  }
