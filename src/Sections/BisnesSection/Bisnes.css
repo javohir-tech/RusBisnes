@@ -1,0 +1,121 @@
+#bisnes-card__1 {
+    background: url(../../assets/bisnes-card-1.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in;
+}
+
+#bisnes-card__1:hover{
+    background: url(../../assets/bisnes-card-1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__2 {
+    background: url(../../assets/bisnes-card-2.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in;
+}
+
+#bisnes-card__2:hover {
+    background: url(../../assets/bisnes-card-2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__3 {
+    background: url(../../assets/bisnes-card-3.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in;
+}
+
+#bisnes-card__3:hover {
+    background: url(../../assets/bisnes-card-3.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__4 {
+    background: url(../../assets/bisnes-card-4.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in;
+}
+
+#bisnes-card__4:hover {
+    background: url(../../assets/bisnes-card-4.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__5 {
+    background: url(../../assets/bisnes-card-5.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in;
+}
+
+#bisnes-card__5:hover {
+    background: url(../../assets/bisnes-card-5.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__6 {
+    background: url(../../assets/bisnes-card-6.1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bisnes-card__6:hover {
+    background: url(../../assets/bisnes-card-6.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bisnes-section__card {
+    box-sizing: border-box;
+    padding: 200px 20px 50px 20px;
+    border-radius: 20px;
+}
+
+.bisnes-section__left{
+    position: relative;
+    bottom: 70px;
+}
+
+.bisnes-card__title{
+    font-weight: 700;
+    line-height: 3.8rem;
+    font-size: 2.5rem;
+}
+
+.bisnes-card__subtitle{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+@media(max-width:768px){
+    .bisnes-section__left{
+        position: static;
+    }
+
+    .bisnes-card__title, .bisnes-card__subtitle{
+        text-align: center;
+    }
+}

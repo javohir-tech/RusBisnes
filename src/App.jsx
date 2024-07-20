@@ -10,6 +10,9 @@ import ContactSection from './Sections/ContactSection/ContactSection';
 import AdviseSection from './Sections/AdviceSection/AdviseSection';
 import Slide from './Sections/SlideSection/Slide';
 import Strategiya from './Sections/StrategiyaSection/Strategiya';
+import Bisnes from './Sections/BisnesSection/Bisnes';
+import Footer from './Sections/Footer/Footer';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,19 +26,19 @@ function App() {
         <MainSection />
       </div>
       {/* result section */}
-      <Result/>
+      <Result />
       {/* contact section */}
-      <ContactSection/>
+      <ContactSection />
       {/* advice section */}
-      <AdviseSection/>
+      <AdviseSection />
       {/* clients section */}
-      <Slide/>
+      <Slide />
       {/* strategiya section */}
-      <Strategiya/>
+      <Strategiya />
       {/* bisnes section */}
-      <p>bisnes section</p>
-      {/* footer section */}
-      <p>footer section</p>
+      <Bisnes/>
+        {/* footer section */}
+      <Footer/>
     </>
   )
 }
