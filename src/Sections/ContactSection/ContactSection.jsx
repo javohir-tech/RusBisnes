@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './ContactSection.css'
 import { Button, Form, Modal } from 'react-bootstrap'
 import Rahbar from '../../assets/dalbayop.jpeg'
+import { useTranslation } from 'react-i18next';
 
 export default function ContactSection() {
 
@@ -62,31 +63,32 @@ export default function ContactSection() {
             });
     }
 
+    const {t} = useTranslation()
     return (
         <>
             <section className='contact-section my-5'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-5 contact-section__form p-2">
-                            <h3 className='mb-4 text-center'>Есть конкретная цель?</h3>
-                            <p className='mb-5 text-center'>Заполняйте форму и укажите желаемое количество клиентов, а я предложу путь к достижению Ваших целей</p>
+                            <h3 className='mb-4 text-center'>{t('contact-section.title')}</h3>
+                            <p className='mb-5 text-center'>{t('contact-section.subtitle')}</p>
                             <div>
                                 <Form onSubmit={handleSubmit}>
                                     <Form.Group>
-                                        <Form.Control type='text' placeholder='Имя' className='mb-4 rounded-pill py-2 px-3' value={name} onChange={(e) => setName(e.target.value)} required />
+                                        <Form.Control type='text' placeholder={t('contact-section.name')} className='mb-4 rounded-pill py-2 px-3' value={name} onChange={(e) => setName(e.target.value)} required />
                                     </Form.Group>
                                     <Form.Group>
-                                        <Form.Control type='number' placeholder='telefon number' className='mb-4 rounded-pill py-2 px-3' value={number} onChange={(e) => setNumber(e.target.value)} required />
+                                        <Form.Control type='number' placeholder="+998" className='mb-4 rounded-pill py-2 px-3' value={number} onChange={(e) => setNumber(e.target.value)} required />
                                     </Form.Group>
                                     <Form.Group>
-                                        <Form.Control type='text' placeholder='Регион продвижения' className='mb-4 rounded-pill py-2 px-3' value={region} onChange={(e) => setRegion(e.target.value)} required />
+                                        <Form.Control type='text' placeholder={t('contact-section.region')} className='mb-4 rounded-pill py-2 px-3' value={region} onChange={(e) => setRegion(e.target.value)} required />
                                     </Form.Group>
                                     <Form.Group>
-                                        <Form.Control type='text' placeholder='Средний чек' className='mb-4 rounded-pill py-2 px-3' value={chek} onChange={(e) => setChek(e.target.value)} required />
+                                        <Form.Control type='text' placeholder={t('contact-section.chek')} className='mb-4 rounded-pill py-2 px-3' value={chek} onChange={(e) => setChek(e.target.value)} required />
                                     </Form.Group>
-                                    <p>Сколько клиентов необходимо до цели?</p>
+                                    <p>{t('contact-section.clients')}</p>
                                     <Form.Range min={"0"} max={"500"} step={"1"} value={clients} onChange={(e) => setClients(e.target.value)} required />
-                                    <Button variant='primary' className='w-100 mt-4 rounded-pill py-3' type='submit'>УЗНАТЬ РЕЗУЛЬТАТ</Button>
+                                    <Button variant='primary' className='w-100 mt-4 rounded-pill py-3' type='submit'>{t('contact-section.send')}</Button>
                                 </Form>
                             </div>
                         </div>
@@ -101,9 +103,9 @@ export default function ContactSection() {
                     aria-labelledby="contained-modal-title-vcenter"
                     centered>
                     <Modal.Header closeButton>
-                        <Modal.Title>Maluotlar Jo'natildi</Modal.Title>
+                        <Modal.Title>{t('contact-section.modal.header')}</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>Tez orada sizga aloqaga chiqamiz</Modal.Body>
+                    <Modal.Body>{t('contact-section.modal.body')}</Modal.Body>
                 </Modal>
             </section>
         </>

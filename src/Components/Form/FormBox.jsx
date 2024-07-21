@@ -3,6 +3,7 @@ import './FormBox.css'
 import { Form, Modal } from 'react-bootstrap'
 import ButtonCom from '../Button/Button'
 import axios from 'axios';
+import { t } from 'i18next';
 
 export default function FormBox({radius, subtitle}) {
 
@@ -59,24 +60,24 @@ export default function FormBox({radius, subtitle}) {
         <div>
             <div className={`box text-center mx-auto position-relative ${radius}`}>
                 {/* <span className='position-absolute w-100 h-100 nestet-box'></span> */}
-                <h3 className='form-box__title'>СТРАТЕГИЯ БЕСПЛАТНО</h3>
+                <h3 className='form-box__title'>{t('form.title')}</h3>
                 <p className='form-box__subtitle'>{subtitle}</p>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-4">
-                        <Form.Control type="text" placeholder="Имя" onChange={(e) => setName(e.target.value)} value={name} required className='rounded-pill' />
+                        <Form.Control type="text" placeholder={t('form.name')} onChange={(e) => setName(e.target.value)} value={name} required className='rounded-pill' />
                     </Form.Group>
                     <Form.Group className="mb-4">
-                        <Form.Control type="text" placeholder="+380" onChange={(e) => setNumber(e.target.value)} value={number} className='rounded-pill' required />
+                        <Form.Control type="text" placeholder={t('form.number')} onChange={(e) => setNumber(e.target.value)} value={number} className='rounded-pill' required />
                     </Form.Group>
-                    <ButtonCom text={'ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ '} style={'main-button w-100'}/>
+                    <ButtonCom text={t('form.button')} style={'main-button w-100'}/>
                 </Form>
                 <Modal show={show} onHide={handleClose} size="lg"
                     aria-labelledby="contained-modal-title-vcenter"
                     centered>
                     <Modal.Header closeButton>
-                        <Modal.Title>Malumotlar olindi</Modal.Title>
+                        <Modal.Title>{t('modal.title')}</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>sizga tez orada aloqaga chiqamiz</Modal.Body>
+                    <Modal.Body>{t('modal.body')}</Modal.Body>
                 </Modal>
             </div>
         </div>

@@ -3,6 +3,7 @@ import { Form, Modal } from 'react-bootstrap'
 import { Facebook, Instagram, PhoneVibrate, Telegram, Whatsapp } from 'react-bootstrap-icons'
 import ButtonCom from '../../Components/Button/Button'
 import './Footer.css'
+import { useTranslation } from 'react-i18next'
 
 
 export default function Footer() {
@@ -59,14 +60,14 @@ export default function Footer() {
             })
 
     }
-
+    const {t} = useTranslation();
     return (
         <>
             <footer className='footer-section'>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6  text-center d-flex flex-column justify-content-between">
-                            <h1 className='footer-title'>Мои контакты</h1>
+                            <h1 className='footer-title'>{t('footer.left')}</h1>
                             <div className='d-flex justify-content-center align-items-center'>
                                 <div>
                                     <Whatsapp className='ms-3' />
@@ -86,27 +87,31 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="col-xl-6">
-                            <h1 className='footer-title text-center'>Есть вопросы? - Пишите!</h1>
+                            <h1 className='footer-title text-center'>{t('footer.right')}</h1>
                             <Form className='w-50 mx-auto' onSubmit={handleSubmit}>
                                 <Form.Group >
-                                    <Form.Control value={name} onChange={(e) => setName(e.target.value)} type='text' required placeholder='Имя' className='mb-4 px-3 py-2' />
+                                    <Form.Control value={name} onChange={(e) => setName(e.target.value)} type='text' required placeholder={t('footer.name')} className='mb-4 px-3 py-2' />
                                 </Form.Group>
                                 <Form.Group>
-                                    <Form.Control value={number} onChange={(e) => setNumber(e.target.value)} type='number' required placeholder='+380' className='mb-4 px-3 py-2' />
+                                    <Form.Control value={number} onChange={(e) => setNumber(e.target.value)} type='number' required placeholder={t('footer.number')} className='mb-4 px-3 py-2' />
                                 </Form.Group>
                                 <Form.Group>
-                                    <Form.Control value={xabar} onChange={(e) => setXabar(e.target.value)} as="textarea" rows={3} required placeholder='Вопрос' className='mb-4 rounded px-3 py-2' />
+                                    <Form.Control value={xabar} onChange={(e) => setXabar(e.target.value)} as="textarea" rows={3} required placeholder={t('footer.xabar')} className='mb-4 rounded px-3 py-2' />
                                 </Form.Group>
-                                <ButtonCom text={'ЗАДАТЬ ВОПРОС'} style={'main-button w-100'} />
+                                <ButtonCom text={t('footer.button')} style={'main-button w-100'} />
                             </Form>
                         </div>
+                    </div>
+                    <div className='under-text'>
+                        
+                        <h3>{t('footer.under-text')}</h3>
                     </div>
                 </div>
                 <Modal show={show} onHide={handleClose} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
                     <Modal.Header closeButton>
-                        <Modal.Title>Modal heading</Modal.Title>
+                        <Modal.Title>{t('footer.modal.header')}</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                    <Modal.Body>{t('footer.modal.body')}</Modal.Body>
                 </Modal>
             </footer>
         </>

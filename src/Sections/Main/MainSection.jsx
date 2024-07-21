@@ -3,8 +3,10 @@ import FormBox from '../../Components/Form/FormBox'
 import './MainSection.css'
 import NavbarImg from '../../assets/NavbarBrand.png'
 import BUttonGruppa from '../../Components/Button/ButtonGruppa/BUttonGruppa'
+import { useTranslation } from 'react-i18next'
 
 export default function MainSection() {
+    const { t } = useTranslation();
     return (
         <>
             <section className='main-section py-3'>
@@ -17,17 +19,17 @@ export default function MainSection() {
                             <div className='d-flex name-box'>
                                 <img src={NavbarImg} alt="main-img" className='main-brand' />
                                 <div className='d-flex main-section__pasport '>
-                                    <h1 className='my-position position-relative'>Таргетолог<span className='under-line position-absolute'></span></h1>
-                                    <h1 className='my-name'>Антон Вакуленко</h1>
+                                    <h1 className='my-position position-relative'>{t('main.my-position')}<span className='under-line position-absolute'></span></h1>
+                                    <h1 className='my-name'>{t('main.my-name')}</h1>
                                 </div>
                             </div>
                             <div className='secret-box text-center my-2'>
-                                Комплекс маркетинговых инструментов для Вашего бизнеса
+                                {t('main.secret-box')}
                             </div>
-                            <p className='my-info'>Увеличу продажи с помощью рекламы в интернете и предоставлю первые обращения клиентов уже через 48 часов</p>
+                            <p className='my-info'>{t('main.my-info')}</p>
                         </div>
                         <div className="col-md-6">
-                            <FormBox subtitle={'Напишу стратегию по Таргетированной Рекламе для Вашей компании бесплатно и презентую ее!'}/>
+                            <FormBox subtitle={t('main.subtitle')}/>
                         </div>
                     </div>
                 </div>

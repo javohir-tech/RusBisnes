@@ -1,23 +1,23 @@
-.footer-title{
+.footer-title {
     color: #ffffff;
     font-size: 2.5rem;
     line-height: 4rem;
     margin-bottom: 20px;
 }
 
-.footer-section{
+.footer-section {
     background: url(../../assets/tild3339-3935-4265-b533-336266363036__photo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 100px 0;
 
-    svg{
+    svg {
         color: #ffffff;
         font-size: 32px;
     }
 
-    a{
+    a {
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-size: 22px;
@@ -25,11 +25,17 @@
         line-height: 2rem;
     }
 
-    input, textarea{
+    input,
+    textarea {
         background-color: rgb(46, 46, 46);
         border-radius: 20px;
         font-weight: 700;
         font-size: 1rem;
         color: rgb(255, 255, 255);
     }
+
+}
+
+input::placeholder {
+    color: white;
 }
