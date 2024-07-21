@@ -1,8 +1,8 @@
 {
     "navbar": {
-        "navbar-link__1": "salom",
-        "navbar-link__2": "otzyvy",
-        "navbar-link__3": "kontakty"
+        "navbar-link__1": "КЕЙСИ",
+        "navbar-link__2": "ВІДГУКИ",
+        "navbar-link__3": "КОНТАКТИ"
     },
     "main": {
         "my-position": "Таргетолог",
@@ -151,6 +151,7 @@
         "number":"+998 (99) 999-99-99",
         "xabar":"Питання",
         "button":"ЗАДАТИ ПИТАННЯ",
+        "under-text":"@ 2015-2022. Всі права захищеніПолітика конфіденційності",
         "modal": {
             "header": "Заполните форму",
             "body": "Ваш отзыв отправлен"

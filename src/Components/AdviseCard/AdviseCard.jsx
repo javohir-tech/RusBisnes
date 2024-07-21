@@ -1,6 +1,5 @@
 import React from 'react'
 import './AdviseCard.css'
-import sergey from '../../assets/advise-card-1.png'
 import { useTranslation } from 'react-i18next'
 
 export default function AdviseCard({title, subtitle, img, cardItem__1, cardItem__2, cardItem__3 }) {

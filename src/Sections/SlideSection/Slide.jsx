@@ -65,7 +65,7 @@ export default function Slide() {
     const {t} = useTranslation()
     return (
         <>
-            <section className='slide-section py-5 mt-5 mb-0 bg-dark'>
+            <section className='slide-section py-5 mt-5 mb-0 bg-dark' id='reviews'>
                 <div className="container">
                     <div className='text-center text-ligth'>
                         <h1 className='text-light position-relative'>{t('slide-section.title')}<span className='under-line position-absolute'></span></h1>

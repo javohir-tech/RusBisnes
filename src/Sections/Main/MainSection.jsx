@@ -9,7 +9,7 @@ export default function MainSection() {
     const { t } = useTranslation();
     return (
         <>
-            <section className='main-section py-3'>
+            <section className='main-section py-3' id='home'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6">

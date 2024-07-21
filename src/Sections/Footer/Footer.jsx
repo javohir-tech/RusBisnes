@@ -66,29 +66,31 @@ export default function Footer() {
             <footer className='footer-section'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-6  text-center d-flex flex-column justify-content-between">
+                        <div className="col-xl-6 text-center d-flex flex-column justify-content-between footer-links">
                             <h1 className='footer-title'>{t('footer.left')}</h1>
-                            <div className='d-flex justify-content-center align-items-center'>
+                            <div className='d-flex flex-column flex-md-row  justify-content-center align-items-center'>
                                 <div>
+                                    <a href="https://api.whatsapp.com/send/?phone=380986066667&text=%D0%9D%D1%83%D0%B6%D0%BD%D1%8B+%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%8B%21+%D0%93%D0%BE%D1%82%D0%BE%D0%B2+%D1%81%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%B8%D1%82%D1%8C%D1%81%D1%8F&type=phone_number&app_absent=0" target='_blank'>
                                     <Whatsapp className='ms-3' />
-                                    <Telegram className='ms-3' />
+                                    </a>
+                                    <a href="https://t.me/wakula_freedom" target='_blank'><Telegram className='ms-3' /></a>
                                     <PhoneVibrate className='ms-3' />
                                 </div>
                                 <div>
-                                    <a href="" className='d-block mb-0 ms-2'>+998900072904</a>
-                                    <a href="" className='d-block mb-0 ms-2'>+998900072904</a>
+                                    <a href="totel:+998900072904" className='d-block mb-0 ms-2'>+998900072904</a>
+                                    <a href="totel:+998900072904" className='d-block mb-0 ms-2'>+998900072904</a>
                                 </div>
                             </div>
                             <div>
-                                <a href="">suvonovjavohir@gmail.com</a>
+                                <a href="mailto:suvonovjavohir@gmail">suvonovjavohir@gmail.com</a>
                             </div>
-                            <div>
-                                <Facebook className='me-4' /> <Instagram />
+                            <div className='my-2'>
+                                <a href="https://www.facebook.com/a.a.vakulenko" target='_blank'><Facebook className='me-4'/></a><a href="https://www.instagram.com/a.a.vakulenko" target='_blank'><Instagram/></a>
                             </div>
                         </div>
                         <div className="col-xl-6">
                             <h1 className='footer-title text-center'>{t('footer.right')}</h1>
-                            <Form className='w-50 mx-auto' onSubmit={handleSubmit}>
+                            <Form className='footer-form mx-auto' onSubmit={handleSubmit}>
                                 <Form.Group >
                                     <Form.Control value={name} onChange={(e) => setName(e.target.value)} type='text' required placeholder={t('footer.name')} className='mb-4 px-3 py-2' />
                                 </Form.Group>
@@ -102,9 +104,8 @@ export default function Footer() {
                             </Form>
                         </div>
                     </div>
-                    <div className='under-text'>
-                        
-                        <h3>{t('footer.under-text')}</h3>
+                    <div className='text-center my-5'>
+                        <h3 className='footer-under__text'>{t('footer.under-text')}</h3>
                     </div>
                 </div>
                 <Modal show={show} onHide={handleClose} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>

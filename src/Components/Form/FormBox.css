@@ -14,39 +14,51 @@
     margin-bottom: 60px;
 }
 
-.form-box__subtitle{
+.form-box__subtitle {
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
 }
 
-.box input{
+.box input {
     box-sizing: border-box;
     padding: 10px 15px;
 }
 
-@media(max-width:776px){
-    .box{
+.main-form {
+    input {
+        background-color: rgb(46, 46, 46);
+    }
+
+    input::placeholder{
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    input:focus{
+        background-color: rgb(46, 46, 46);
+        color: #ffffff;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:776px) {
+    .box {
         width: 300px;
         padding: 30px 10px;
         border: 0;
     }
 
-    .form-box__title{
+    .form-box__title {
         margin-bottom: 10px;
         font-size: 22px;
         line-height: 34px;
     }
 
-    .form-box__subtitle{
+    .form-box__subtitle {
         margin-bottom: 20px;
         font-size: 14px;
     }
-
-
-    
 }
-
-
-

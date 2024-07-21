@@ -24,6 +24,15 @@
     line-height: 2.2rem;
 }
 
+.advise-section__button{
+    padding: 10px 15px;
+    background-color: #2e7bff;
+    font-size: 16px;
+    border-radius: 30px;
+   border: 0;
+   color: #ffffff;
+   font-weight: 700;
+}
 
 @media(max-width:776px){
     .advise-section__header{

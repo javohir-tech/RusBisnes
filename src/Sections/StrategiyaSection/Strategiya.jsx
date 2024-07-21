@@ -8,7 +8,7 @@ export default function Strategiya() {
     const {t} = useTranslation()
     return (
         <>
-            <section className='strategiya-section py-5'>
+            <section className='strategiya-section py-5' id='lastform'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6">

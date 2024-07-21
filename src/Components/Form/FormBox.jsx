@@ -62,12 +62,12 @@ export default function FormBox({radius, subtitle}) {
                 {/* <span className='position-absolute w-100 h-100 nestet-box'></span> */}
                 <h3 className='form-box__title'>{t('form.title')}</h3>
                 <p className='form-box__subtitle'>{subtitle}</p>
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit} className='main-form'>
                     <Form.Group className="mb-4">
                         <Form.Control type="text" placeholder={t('form.name')} onChange={(e) => setName(e.target.value)} value={name} required className='rounded-pill' />
                     </Form.Group>
                     <Form.Group className="mb-4">
-                        <Form.Control type="text" placeholder={t('form.number')} onChange={(e) => setNumber(e.target.value)} value={number} className='rounded-pill' required />
+                        <Form.Control type="number" placeholder={t('form.number')} onChange={(e) => setNumber(e.target.value)} value={number} className='rounded-pill' required />
                     </Form.Group>
                     <ButtonCom text={t('form.button')} style={'main-button w-100'}/>
                 </Form>

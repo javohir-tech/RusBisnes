@@ -20,7 +20,7 @@ export default function NavbarRu() {
 
     return (
         <div>
-            <Navbar expanded={expended} expand="lg" className="navbar-section position-fixed w-100" onToggle={() => setExpended(!expended)}>
+            <Navbar expanded={expended} expand="lg" className="navbar-section" onToggle={() => setExpended(!expended)}>
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src={NavbarImg} alt="navbar-img" className='navbar-img' />
@@ -29,8 +29,8 @@ export default function NavbarRu() {
                     <Navbar.Collapse id="basic-navbar-nav" className='z-3 navbar-collapse'>
                         <Nav className="mx-auto" onClick={handleNavClick}>
                             <Nav.Link className='nav-link mx-3 px-4 p-2' href="#home">{t('navbar.navbar-link__1')}</Nav.Link>
-                            <Nav.Link className='nav-link mx-4 px-3 py-2' href="#about">{t('navbar.navbar-link__2')}</Nav.Link>
-                            <Nav.Link className='nav-link mx-4 px-3 py-2' href="#tours">{t('navbar.navbar-link__3')}</Nav.Link>
+                            <Nav.Link className='nav-link mx-4 px-3 py-2' href="#reviews">{t('navbar.navbar-link__2')}</Nav.Link>
+                            <Nav.Link className='nav-link mx-4 px-3 py-2' href="#contacts">{t('navbar.navbar-link__3')}</Nav.Link>
                         </Nav>
                         <div className='social_media d-flex align-items-center p-3'>
                             <BUttonGruppa/>

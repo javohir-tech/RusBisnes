@@ -66,7 +66,7 @@ export default function ContactSection() {
     const {t} = useTranslation()
     return (
         <>
-            <section className='contact-section my-5'>
+            <section className='contact-section my-5' id='contacts'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-5 contact-section__form p-2">
