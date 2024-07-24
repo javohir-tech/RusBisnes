@@ -1,5 +1,9 @@
 .navbar-img{
-    width: 72px;
+    width: 62px;
+}
+
+.navbar-nav .nav-link.active{
+    color: #ffffff;
 }
 
 .nav-link{
@@ -21,6 +25,18 @@
     color: #ffffff  ;
 }
 
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+button.navbar-toggler {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}   
+
 @media(max-width: 776px){
     .navbar-section{
         background-color: #000000;
@@ -28,5 +44,9 @@
 
     .navbar-toggler, .navbar-toggler-icon{
         color: #ffffff;
+    }
+
+    .social_media{
+       justify-content: сenter;
     }
 }

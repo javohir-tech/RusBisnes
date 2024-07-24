@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'
-import { Form } from 'react-bootstrap';
 import { useState } from 'react';  
 import NavbarImg from '../../assets/NavbarBrand.png' 
 import BUttonGruppa from '../../Components/Button/ButtonGruppa/BUttonGruppa';
@@ -18,9 +17,20 @@ export default function NavbarRu() {
         setExpended(false)
     }
 
+    const [navbarFixed, setNavbarFixed] = useState(false);
+    const handleScroll = () => {
+        if(window.scrollY>600 && window.innerWidth<768){
+            setNavbarFixed(true);
+        }else{
+            setNavbarFixed(false);
+        }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return (
         <div>
-            <Navbar expanded={expended} expand="lg" className="navbar-section" onToggle={() => setExpended(!expended)}>
+            <Navbar expanded={expended} expand="lg"  className={`navbar-section ${navbarFixed ? 'navbar-fixed' : ''}`} onToggle={() => setExpended(!expended)}>
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src={NavbarImg} alt="navbar-img" className='navbar-img' />
@@ -32,7 +42,7 @@ export default function NavbarRu() {
                             <Nav.Link className='nav-link mx-4 px-3 py-2' href="#reviews">{t('navbar.navbar-link__2')}</Nav.Link>
                             <Nav.Link className='nav-link mx-4 px-3 py-2' href="#contacts">{t('navbar.navbar-link__3')}</Nav.Link>
                         </Nav>
-                        <div className='social_media d-flex align-items-center p-3'>
+                        <div className='social_media d-flex align-items-center justify-content-center p-3'>
                             <BUttonGruppa/>
                         </div>
                     </Navbar.Collapse>

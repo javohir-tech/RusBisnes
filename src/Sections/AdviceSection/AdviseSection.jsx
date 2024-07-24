@@ -60,8 +60,9 @@ export default function AdviseSection() {
                                     cardItem__1={'150'}
                                     cardItem__2={'2,5$'}
                                     cardItem__3={'450$'} />
-                                <div className='d-flex align-items-center mt-5 pt-3'>
-                                    <h1 className='under-header'>{t('advise-section.underText')}</h1><a href="#lastform"><button className='advise-section__button'>{t('advise-section.button')}</button></a>
+                                <div className='d-flex align-items-center flex-column flex-sm-row mt-5 pt-3'>
+                                    <h1 className='under-header text-center'>{t('advise-section.underText')}</h1>
+                                    <a href="#lastform"><button className='advise-section__button'>{t('advise-section.button')}</button></a>
                                 </div>
                             </div>
                         </div>

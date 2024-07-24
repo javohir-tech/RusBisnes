@@ -50,3 +50,14 @@
         }
     }
 }
+
+@media(max-width:576px){
+    .card-footer{
+        h2{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

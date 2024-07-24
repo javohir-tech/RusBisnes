@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarRu from './Sections/Navbar/Navbar'
 import MainSection from './Sections/Main/MainSection';
@@ -12,6 +11,7 @@ import Slide from './Sections/SlideSection/Slide';
 import Strategiya from './Sections/StrategiyaSection/Strategiya';
 import Bisnes from './Sections/BisnesSection/Bisnes';
 import Footer from './Sections/Footer/Footer';
+import './App.css'
 
 
 function App() {

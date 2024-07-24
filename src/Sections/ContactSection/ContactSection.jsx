@@ -63,7 +63,7 @@ export default function ContactSection() {
             });
     }
 
-    const {t} = useTranslation()
+    const { t } = useTranslation()
     return (
         <>
             <section className='contact-section my-5' id='contacts'>
@@ -78,7 +78,7 @@ export default function ContactSection() {
                                         <Form.Control type='text' placeholder={t('contact-section.name')} className='mb-4 rounded-pill py-2 px-3' value={name} onChange={(e) => setName(e.target.value)} required />
                                     </Form.Group>
                                     <Form.Group>
-                                        <Form.Control type='number' placeholder="+998" className='mb-4 rounded-pill py-2 px-3' value={number} onChange={(e) => setNumber(e.target.value)} required />
+                                        <Form.Control type='number' min="0" placeholder="+998" className='mb-4 rounded-pill py-2 px-3' value={number} onChange={(e) => setNumber(e.target.value)} required />
                                     </Form.Group>
                                     <Form.Group>
                                         <Form.Control type='text' placeholder={t('contact-section.region')} className='mb-4 rounded-pill py-2 px-3' value={region} onChange={(e) => setRegion(e.target.value)} required />
@@ -87,7 +87,15 @@ export default function ContactSection() {
                                         <Form.Control type='text' placeholder={t('contact-section.chek')} className='mb-4 rounded-pill py-2 px-3' value={chek} onChange={(e) => setChek(e.target.value)} required />
                                     </Form.Group>
                                     <p>{t('contact-section.clients')}</p>
-                                    <Form.Range min={"0"} max={"500"} step={"1"} value={clients} onChange={(e) => setClients(e.target.value)} required />
+                                    <Form.Label>Clients: {clients}</Form.Label> {/* Qo'shilgan qator */}
+                                    <Form.Range
+                                        min="0"
+                                        max="500"
+                                        step="1"
+                                        value={clients}
+                                        onChange={(e) => setClients(e.target.value)}
+                                        required
+                                    />
                                     <Button variant='primary' className='w-100 mt-4 rounded-pill py-3' type='submit'>{t('contact-section.send')}</Button>
                                 </Form>
                             </div>
