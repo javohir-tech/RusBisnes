@@ -120,7 +120,7 @@ export default function Result() {
                         <BisnesCard id={'card-11'}
                             title={t('result-section.card-11.title')}
                             styletwo={'bisnes-card__data right'}
-                            style={'bisnes-card mt-5 ms-auto'}
+                            style={'bisnes-card mt-5 ms-auto'}  
                             subtitle={t('result-section.card-11.subtitle')}
                             reklam={'600'} reklamTitle={t('result-section.card-11.reklamTitle')}
                             sell={'1$'} sellTitle={t('result-section.card-11.sellTitle')} buttonText={t('result-section.card-11.buttonText')}
