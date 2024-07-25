@@ -96,6 +96,12 @@ export default function ContactSection() {
                                         onChange={(e) => setClients(e.target.value)}
                                         required
                                     />
+                                    <Form.Text id="passwordHelpBlock" className='range-footer' muted>
+                                       <div className='d-flex justify-content-between'>
+                                        <p className='text-light'>min:0</p>
+                                        <p className='text-light'>max:500</p>
+                                       </div>
+                                    </Form.Text>
                                     <Button variant='primary' className='w-100 mt-4 rounded-pill py-3' type='submit'>{t('contact-section.send')}</Button>
                                 </Form>
                             </div>
