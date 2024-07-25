@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './ContactSection.css'
 import { Button, Form, Modal } from 'react-bootstrap'
-import Rahbar from '../../assets/dalbayop.jpeg'
+import Rahbar from '../../assets/uzbTargetolog.jpg'
 import { useTranslation } from 'react-i18next';
 
 export default function ContactSection() {
@@ -102,7 +102,7 @@ export default function ContactSection() {
                         </div>
                         <div className="col-md-6 offset-md-1 p-2">
                             <div className='d-flex'>
-                                <img src={Rahbar} alt="vakulekko img" className='img-fluid boss-img mx-auto position-relative' />
+                                <img src={Rahbar} alt="vakulekko img" className='img-fluid boss-img mx-auto e' />
                             </div>
                         </div>
                     </div>

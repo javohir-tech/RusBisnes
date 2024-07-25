@@ -1,0 +1,223 @@
+{
+    "navbar": {
+        "navbar-link__1": "Asosiy Bo'lim",
+        "navbar-link__2": "Sharhlar",
+        "navbar-link__3": "Bog'lanish"
+    },
+    "main": {
+        "my-position": "Targetolog",
+        "my-name": "Latipov Izzatbek",
+        "secret-box": "Sizning biznesingiz uchun marketing vositalari to'plami",
+        "my-info": "Men onlayn reklama yordamida savdoni oshiraman va 48 soat ichida birinchi mijozlar so'rovlarini taqdim etaman",
+        "subtitle": "Men sizning kompaniyangiz uchun Maqsadli Reklama strategiyasini bepul yozaman va uni taqdim etaman!"
+    },
+    "form": {
+        "title": "BEPUL STRATEGIYA",
+        "name": "Ismingiz",
+        "number": "Telefon Raqamingiz",
+        "button": "Yuborish"
+    },
+    "modal": {
+        "title": "Malumotlar Olindi ",
+        "body": "Sizga Tez Orada Aloqaga Chiqamiz !"
+    },
+    "result-section": {
+        "title": "Mening mijozlarim natijalari",
+        "subtitle": "Maqsadli reklama vositalaridan foydalangan holda mijozlarim uchun $1 000 000 dan ortiq foyda keltirgan holatlarimni koʻrib chiqing.",
+        "card-1": {
+            "title": "Uybozor",
+            "subtitle": "Qulay va zamonaviy uylar sizni kutmoqda!",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi ",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-2": {
+            "title": "Respublika dermatologiya va venerologiya markazi",
+            "subtitle": "Terining sog‘lig‘i va go‘zalligiga bag‘ishlangan professional xizmatlar.",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-3": {
+            "title": "Vintilatsa,konitsaner,ustanofka,xizmati",
+            "subtitle": "Yozning Chillasida Zamonaviy Texnalogiyalar ",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-4": {
+            "title": "O'quvmarkaz It Dasturlash",
+            "subtitle": "Ko'p yillik tajribaga ega ustozlardan o'quv",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-5": {
+            "title": "KIPRIK UZAYTIRISH Xizmatlari ",
+            "subtitle": "Kiprik uzaytirish va boshqa go'zallik xizmatlari",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-6": {
+            "title": "Ayollar kiyimlari",
+            "subtitle": "Istalgan turdagi ayollar kiyimlari ",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-7": {
+            "title": "Stomotolog",
+            "subtitle": "Stomotolog va pediatr xizmatlari",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-8": {
+            "title": "Zamonaviy  Aksessuarlar ",
+            "subtitle": "Zamonaviy aksessuar xizmatlari ",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "benefitTitle":"Reklama Budjeti",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-9": {
+            "title": "Kosmetolog Dietolog",
+            "subtitle": "Kosmetolog va dietitologiya bo'yicha mutahasis",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "benefitTitle":"Reklama Budjeti",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-10": {
+            "title": "Telefon Oldi sotisi Iphone Samsung",
+            "subtitle": "Har hil turdagi telefonlar oldi sotdisi",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-11": {
+            "title": "Max Power tabiiy tog’ asali",
+            "subtitle": "Sifatli asal xizmatlari va max power tabiiy tog’ asali",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-12": {
+            "title": "Ahad Qayum Producer Actor",
+            "subtitle": "O'zbek kinosi namoyondalarida Ahad Qayum ham bizni tavsiya qiladi",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "benefitTitle":"Reklama Budjeti",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-13": {
+            "title": "Respublika dermatologiya va venerologiya markazi",
+            "subtitle": "Terining sog‘lig‘i va go‘zalligiga bag‘ishlangan professional xizmatlar.",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-14": {
+            "title": "Anhor Park",
+            "subtitle": "Toshkentdagi eng katta istirohat bog‘laridan biri bo‘lib, ochiq havoda joylashgan va yil davomida faoliyat yuritadi.",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        }
+
+    },
+    "newButton": "Ko'proq Ko'rish",
+    "contact-section": {
+        "title": "Sizning aniq maqsadingiz bormi?",
+        "subtitle": "Shaklni to'ldiring va kerakli mijozlar sonini ko'rsating, men sizning maqsadlaringizga erishish yo'lini taklif qilaman.",
+        "clients": "Maqsadga erishish uchun qancha mijoz kerak?",
+        "send": "NATIJASINI BILING",
+        "name": "Ismingiz",
+        "number": "Telefon Raqamingiz",
+        "region": "Reklama Hududi",
+        "chek": "O'rtacha Tekshirish",
+        "modal": {
+            "header": "Malumotlaringiz Olinndi",
+            "body": "Tez Orada Sizga Aloqaga Chiqamiz !"
+        }
+    },
+    "advise-section": {
+        "title": "Menga tavsiya etiladi",
+        "subtitle": "Hozir menda 10 dan ortiq loyihalar doimiy parvarish qilinmoqda, ular uchun men har oy maksimal miqdordagi maqsadli so'rovlarni jalb qilaman",
+        "advise-card": {
+            "item-1": "maqsadli murojaatlar",
+            "item-2": "ariza narxi",
+            "item-3": "reklama byudjeti"
+        },
+        "card__1": {
+            "title": "Sergey",
+            "subtitle": "Eng yirik tadbirlar hamjamiyatining asoschisi. Ochiq tadbirlar klubi"
+        },
+        "card__2": {
+            "title": "Ruslan",
+            "subtitle": "Pochta kartalari kublari"
+        },
+        "card__3": {
+            "title": "Oleksandr",
+            "subtitle": "Markaziy ipoteka korporatsiyasi - mijozlarni kvartiralarni sotib olishga jalb qilish"
+        },
+        "card__4": {
+            "title": "Oleksandr",
+            "subtitle": "Maqsadlari savdo maydonlarini 1000 m2 dan isitish uchun mo'ljallangan sanoat qozonlari"
+        },
+        "underText": "Xuddi shu natijani xohlaysizmi?",
+        "button": "Maslahat Olish Uchun"
+    },
+    "slide-section": {
+        "title": "Mijozlarimning Sharhlari"
+    },
+    "strategiya-section": {
+        "title": "Mijozlar oqimiga tayyormisiz?",
+        "subtitle": "Men onlayn reklama yordamida savdoni oshiraman va 48 soat ichida birinchi mijozlar so'rovlarini taqdim etaman",
+        "form": {
+            "subtitle": "Shaklni to'ldiring va mendan mijozlarni biznesingizga jalb qilish bo'yicha bepul strategiyani oling !"
+        }
+    },
+    "bisnes-section": {
+        "title": "Biznes uchun eng yaxshi echimlar",
+        "subtitle": "Raqamli media, dizayn va ishlanmalar, yetakchi ishlab chiqarish va kommunikatsiyalar uchun hamkorlar izlayotgan startaplar va kichik biznes uchun integratsiyalashgan yondashuv – natijalarga erishish uchun men taqdim etayotgan xizmatlar.",
+        "bisnes-card__1": {
+            "title": "Brendlash",
+            "text": "G'oya, kontseptsiya, orporativ ranglar va shriftlar, joylashishni aniqlash."
+        },
+        "bisnes-card__2": {
+            "title": "SMM",
+            "text": "Kontent rejasi, hashtaglar, postlar, tomoshabinlar bilan muloqot, aksiyalar va musobaqalar."
+        },
+        "bisnes-card__3": {
+            "title": "Qo'nish",
+            "text": "Prototip, sotiladigan matnlar, dizayn, tartib, triggerlar, etakchi shakllar."
+        },
+        "bisnes-card__4": {
+            "title": "Maqsadli",
+            "text": "Takliflar, kreativlar, reklamalar, maqsadli auditoriya uchun segmentatsiya, takomillashtirish.."
+        },
+        "bisnes-card__5": {
+            "title": "Dizayn",
+            "text": "Kreativlar, bannerlar, ochilish sahifalari, ijtimoiy tarmoqlar dizayni ."
+        },
+        "bisnes-card__6": {
+            "title": "Kopirayterlik",
+            "text": "Kontent rejalar, takliflar, matnlarni sotish, tijorat takliflari."
+        }
+    },
+    "footer": {
+        "left": "Mening kontaktlarim",
+        "right": "Savollaringiz bormi? - Yozing!",
+        "name": "Ismingiz",
+        "number": "+998 (99) 999-99-99",
+        "xabar": "Savolingizni Yozing",
+        "button": "Savol Berish",
+        "under-text": "@2015-2022. Barcha huquqlar himoyalanganMaxfiylik siyosati",
+        "modal": {
+            "header": "Savolingizni Qabul Qildik",
+            "body": "Tez Orada sizga Aloqaga Chiqamiz"
+        }
+    }
+}

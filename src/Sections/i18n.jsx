@@ -2,10 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import uaTranslation from '../../public/Locales/ua.json';
 import ruTranslation from '../../public/Locales/ru.json';
+import uzTranslation from '../../public/Locales/uz.json';
 
-// const language = localStorage.getItem('i18nextLng')
+const language = localStorage.getItem('i18nextLng') || 'ru';
 
 i18n
   .use(Backend)
@@ -13,11 +13,11 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'ru', // Qayta til kodi
-    lng: 'ru', // Sukutdagi til kodi
+    lng: language, // Sukutdagi til kodi
     debug: true, // Ogohlantirishni yoqish (xatolikni topish uchun)
     resources: {
-      ua: {
-        translation: uaTranslation // ukran til tarjimalari
+      uz: {
+        translation: uzTranslation // Uzb til tarjimalari
       },
       ru: {
         translation: ruTranslation // Rus til tarjimalari

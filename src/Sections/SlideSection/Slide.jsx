@@ -1,23 +1,28 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Slide.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-import slide1 from '../../assets/slide-1.jpg'
-import slide2 from '../../assets/slide-2.jpg'
-import slide3 from '../../assets/slide-3.jpg'
-import slide4 from '../../assets/slide-4.jpg'
-import slide5 from '../../assets/slide-5.jpg'
-import slide6 from '../../assets/slide-6.jpg'
-import slide7 from '../../assets/slide-7.jpg'
-import slide8 from '../../assets/slide-8.jpg'
-import slide9 from '../../assets/slide-9.jpg'
-import slide10 from '../../assets/slide-10.jpg'
-import slide11 from '../../assets/slide-11.jpg'
-import slide12 from '../../assets/slide-12.jpg'
-import slide13 from '../../assets/slide-13.jpg'
+// import slide1 from '../../assets/slide-1.jpg'
+// import slide2 from '../../assets/slide-2.jpg'
+// import slide3 from '../../assets/slide-3.jpg'
+// import slide4 from '../../assets/slide-4.jpg'
+// import slide5 from '../../assets/slide-5.jpg'
+// import slide6 from '../../assets/slide-6.jpg'
+// import slide7 from '../../assets/slide-7.jpg'
+// import slide8 from '../../assets/slide-8.jpg'
+// import slide9 from '../../assets/slide-9.jpg'
+// import slide10 from '../../assets/slide-10.jpg'
+// import slide11 from '../../assets/slide-11.jpg'
+// import slide12 from '../../assets/slide-12.jpg'
+// import slide13 from '../../assets/slide-13.jpg'
+import slide14 from '../../assets/uzb-result-1.jpg'
+import slide15 from '../../assets/uzb-result-2.jpg'
+import slide16 from '../../assets/uzb-result-3.jpg'
+import slide17 from '../../assets/uzb-result-4.jpg'
+
 import { useTranslation } from 'react-i18next';
 
 
@@ -62,7 +67,8 @@ export default function Slide() {
         ]
     };
 
-    const {t} = useTranslation()
+    // lanuge change
+    const { t } = useTranslation()
     return (
         <>
             <section className='slide-section py-5 mt-5 mb-0 bg-dark' id='reviews'>
@@ -72,44 +78,20 @@ export default function Slide() {
                     </div>
                     <div className="slider-container">
                         <Slider {...settings} className='py-5 my-3'>
-                            <div className='slide-box d-flex justify-content-center'>
-                                <img src={slide1}  alt="" />
+                            <div className='slide-box'>
+                                <img src={slide14} alt="" />
                             </div>
                             <div className='slide-box'>
-                                <img src={slide2} alt="" />
+                                <img src={slide15} alt="" />
                             </div>
                             <div className='slide-box'>
-                                <img src={slide3} alt="" />
+                                <img src={slide16} alt="" />
                             </div>
                             <div className='slide-box'>
-                                <img src={slide4} alt="" />
+                                {/* <video controls width="70%" className="videoPlayer" src={video}></video> */}
                             </div>
                             <div className='slide-box'>
-                                <img src={slide5} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide6} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide7} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide8} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide9} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide10} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide11} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide12} alt="" />
-                            </div>
-                            <div className='slide-box'>
-                                <img src={slide13} alt="" />
+                                <img src={slide17} alt="" />
                             </div>
                         </Slider>
                     </div>

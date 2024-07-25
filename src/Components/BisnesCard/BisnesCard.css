@@ -8,7 +8,7 @@
 
 .bisnes-card__data {
     color: #ffffff;
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 .left{
@@ -56,39 +56,74 @@
 }
 
 #card-2 {
-    background: url(../../assets/summit.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-3{
-    background: url(../../assets/shevrolet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-4{
     background: url(../../assets/homeBIsnes.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+#card-3{
+    background: url(../../assets/bisnes-card-new-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-4{
+    background: url(../../assets/Picsart_24-07-25_02-10-17-505.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 #card-5{
-    background: url(../../assets/kinder2.jpg);
+    background: url(../../assets/photo_5235987879321264232_m.jpg);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #card-6{
-    background: url(../../assets/Archa.jpg);
+    background: url(../../assets/photo_5235987879321264235_y.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+#card-7{
+    background: url(../../assets/photo_5235987879321264245_y.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-8{
+    background: url(../../assets/photo_5235987879321264251_y.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-8{
+    background: url(../../assets/photo_5235987879321264251_y.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-9{
+    background: url(../../assets/photo_5235987879321264264_y.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-10{
+    background: url(../../assets/photo_5235987879321264283_y.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 @media(max-width:996px){
     .bisnes-card{

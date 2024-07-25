@@ -12,7 +12,7 @@ export default function MainSection() {
             <section className='main-section py-3' id='home'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <div className='secret-box text-center mb-3'>
                                 <BUttonGruppa/>
                             </div>
@@ -23,12 +23,12 @@ export default function MainSection() {
                                     <h1 className='my-name'>{t('main.my-name')}</h1>
                                 </div>
                             </div>
-                            <div className='secret-box text-center my-2'>
+                            {/* <div className='secret-box text-center my-2'>
                                 {t('main.secret-box')}
-                            </div>
+                            </div> */}
                             <p className='my-info'>{t('main.my-info')}</p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <FormBox subtitle={t('main.subtitle')}/>
                         </div>
                     </div>
