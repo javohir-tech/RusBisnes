@@ -11,11 +11,11 @@
     padding: 80px 20px;
 }
 
-.left{
+.left {
     margin-left: auto;
 }
 
-.rigth{
+.rigth {
     margin-right: auto;
 }
 
@@ -49,84 +49,133 @@
 }
 
 #card-1 {
-    background: url(../../assets/gelik.jpg);
+    background: url(../../assets/dermatologiya.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
 #card-2 {
-    background: url(../../assets/homeBIsnes.jpg);
+    background: url(../../assets/uzBisnesCard.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
-#card-3{
-    background: url(../../assets/bisnes-card-new-1.jpg);
+#card-3 {
+    background: url(../../assets/iqlim.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
-#card-4{
-    background: url(../../assets/Picsart_24-07-25_02-10-17-505.jpg);
+#card-4 {
+    background: url(../../assets/itTime.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
-#card-5{
-    background: url(../../assets/photo_5235987879321264232_m.jpg);  
+#card-5 {
+    background: url(../../assets/kiprik.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
-#card-6{
-    background: url(../../assets/photo_5235987879321264235_y.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-7{
-    background: url(../../assets/photo_5235987879321264245_y.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-8{
-    background: url(../../assets/photo_5235987879321264251_y.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-8{
-    background: url(../../assets/photo_5235987879321264251_y.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#card-9{
-    background: url(../../assets/photo_5235987879321264264_y.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-#card-10{
+#card-6 {
     background: url(../../assets/photo_5235987879321264283_y.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
 
+#card-7 {
+    background: url(../../assets/stolotolg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
 
-@media(max-width:996px){
-    .bisnes-card{
+#card-8 {
+    background: url(../../assets/aksesuarlar2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card-9 {
+    background: url(../../assets/kasmetolog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card10 {
+    background: url(../../assets/telefon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card-11 {
+    background: url(../../assets/honey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card-12 {
+    background: url(../../assets/ahaaqayum2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card-13 {
+    background: url(../../assets/photo_5235987879321264219_m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#card-14 {
+    background: url(../../assets/anhor2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+@media(max-width:996px) {
+    .bisnes-card {
         width: 100%;
     }
 }

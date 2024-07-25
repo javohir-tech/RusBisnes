@@ -6,7 +6,7 @@
     },
     "main": {
         "my-position": "Targetolog",
-        "my-name": "Latipov Izzatbek",
+        "my-name": "Latifov Izzatbek",
         "secret-box": "Sizning biznesingiz uchun marketing vositalari to'plami",
         "my-info": "Men onlayn reklama yordamida savdoni oshiraman va 48 soat ichida birinchi mijozlar so'rovlarini taqdim etaman",
         "subtitle": "Men sizning kompaniyangiz uchun Maqsadli Reklama strategiyasini bepul yozaman va uni taqdim etaman!"
@@ -25,17 +25,17 @@
         "title": "Mening mijozlarim natijalari",
         "subtitle": "Maqsadli reklama vositalaridan foydalangan holda mijozlarim uchun $1 000 000 dan ortiq foyda keltirgan holatlarimni koʻrib chiqing.",
         "card-1": {
-            "title": "Uybozor",
-            "subtitle": "Qulay va zamonaviy uylar sizni kutmoqda!",
-            "reklamTitle": "Murojatlar Soni",
-            "sellTitle": "Murojatchilar Narxi ",
-            "buttonText": "Murojat Qiling"
-        },
-        "card-2": {
             "title": "Respublika dermatologiya va venerologiya markazi",
             "subtitle": "Terining sog‘lig‘i va go‘zalligiga bag‘ishlangan professional xizmatlar.",
             "reklamTitle": "Murojatlar Soni",
             "sellTitle": "Murojatchilar Narxi",
+            "buttonText": "Murojat Qiling"
+        },
+        "card-2": {
+           "title": "Uybozor",
+            "subtitle": "Qulay va zamonaviy uylar sizni kutmoqda!",
+            "reklamTitle": "Murojatlar Soni",
+            "sellTitle": "Murojatchilar Narxi ",
             "buttonText": "Murojat Qiling"
         },
         "card-3": {

@@ -1,21 +1,25 @@
-.result-section__title{
+.result-section__title {
     font-weight: 700;
     font-size: 3.1rem;
 }
 
-.result-section__subtitle{
+.result-section__subtitle {
     font-size: 1.25rem;
     font-weight: 700;
     width: 50%;
 }
 
-.open-button{
+.open-button {
     font-size: 1.3rem;
     font-weight: 700;
 }
 
-@media(max-width:996px){
-    .result-section__subtitle{
+/* .bisnes-card__data {
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+@media(max-width:996px) {
+    .result-section__subtitle {
         width: 100%;
     }
 }
