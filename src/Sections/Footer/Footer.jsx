@@ -82,7 +82,7 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div>
-                                <a href="mailto:suvonovjavohir@gmail">suvonovjavohir@gmail.com</a>
+                                <a href="mailto:suvonovjavohir@gmail">LatifovIzzatbek</a>
                             </div>
                             <div className='my-2'>
                                 <a href="https://www.facebook.com/a.a.vakulenko" target='_blank'><Facebook className='me-4'/></a><a href="https://www.instagram.com/latifov_izzat?igsh=MTh6d3I3M2V1cnFmYg%3D%3D" target='_blank'><Instagram/></a>
