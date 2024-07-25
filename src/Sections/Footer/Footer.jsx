@@ -77,7 +77,7 @@ export default function Footer() {
                                     <a href="totel:+998931693454"><PhoneVibrate className='ms-3' /></a>
                                 </div>
                                 <div>
-                                    <a href="totel:+998931693454" className='d-block mb-0 ms-2'>+998931693454</a>
+                                    <a href="totel:+998931693454" className='d-block my-3 ms-2'>+998931693454</a>
                                 </div>
                             </div>
                             <div>
