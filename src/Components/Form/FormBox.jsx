@@ -22,7 +22,7 @@ export default function FormBox({radius, subtitle}) {
         e.preventDefault();
 
         const bot_token = '7180477169:AAHyLxOhUXx4IGpmM10mtYUJ-nLPiJlgy0o'; // Bot tokenini kiriting
-        const bot_id = '1896479864'; // Chat ID-ni kiriting
+        const bot_id = '-1002199524677'; // Chat ID-ni kiriting
 
         const message = `
         Name: ${name}

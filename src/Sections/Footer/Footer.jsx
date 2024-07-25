@@ -14,13 +14,13 @@ export default function Footer() {
     const handleShow = () => setShow(true);
 
     const token = '7180477169:AAHyLxOhUXx4IGpmM10mtYUJ-nLPiJlgy0o';
-    const botId = '1896479864';
+    const botId = '-1002199524677';
 
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
     const [xabar, setXabar] = useState('');
 
-    const yangila = () =>{
+    const yangila = () => {
         setName('')
         setNumber('')
         setXabar('')
@@ -60,7 +60,7 @@ export default function Footer() {
             })
 
     }
-    const {t} = useTranslation();
+    const { t } = useTranslation();
     return (
         <>
             <footer className='footer-section'>
@@ -70,22 +70,21 @@ export default function Footer() {
                             <h1 className='footer-title'>{t('footer.left')}</h1>
                             <div className='d-flex flex-column flex-md-row  justify-content-center align-items-center'>
                                 <div>
-                                    <a href="https://api.whatsapp.com/send/?phone=380986066667&text=%D0%9D%D1%83%D0%B6%D0%BD%D1%8B+%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%8B%21+%D0%93%D0%BE%D1%82%D0%BE%D0%B2+%D1%81%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%B8%D1%82%D1%8C%D1%81%D1%8F&type=phone_number&app_absent=0" target='_blank'>
-                                    <Whatsapp className='ms-3' />
+                                    <a href="#">
+                                        <Whatsapp className='ms-3' />
                                     </a>
-                                    <a href="https://t.me/wakula_freedom" target='_blank'><Telegram className='ms-3' /></a>
-                                    <PhoneVibrate className='ms-3' />
+                                    <a href="#" ><Telegram className='ms-3' /></a>
+                                    <a href="totel:+998931693454"><PhoneVibrate className='ms-3' /></a>
                                 </div>
                                 <div>
-                                    <a href="totel:+998900072904" className='d-block mb-0 ms-2'>+998900072904</a>
-                                    <a href="totel:+998900072904" className='d-block mb-0 ms-2'>+998900072904</a>
+                                    <a href="totel:+998931693454" className='d-block mb-0 ms-2'>+998931693454</a>
                                 </div>
                             </div>
                             <div>
-                                <a href="mailto:suvonovjavohir@gmail">LatifovIzzatbek</a>
+                                <a href="#">LatifovIzzatbek</a>
                             </div>
                             <div className='my-2'>
-                                <a href="https://www.facebook.com/a.a.vakulenko" target='_blank'><Facebook className='me-4'/></a><a href="https://www.instagram.com/latifov_izzat?igsh=MTh6d3I3M2V1cnFmYg%3D%3D" target='_blank'><Instagram/></a>
+                                <a href="https://www.facebook.com/" target='_blank'><Facebook className='me-4' /></a><a href="https://www.instagram.com/latifov_izzat?igsh=MTh6d3I3M2V1cnFmYg%3D%3D" target='_blank'><Instagram /></a>
                             </div>
                         </div>
                         <div className="col-xl-6">

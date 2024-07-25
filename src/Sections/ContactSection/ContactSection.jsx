@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import './ContactSection.css'
 import { Button, Form, Modal } from 'react-bootstrap'
-import Rahbar from '../../assets/uzbTargetolog.jpg'
+import Rahbar from '../../assets/rahbar.jpg'
 import { useTranslation } from 'react-i18next';
+
 
 export default function ContactSection() {
 
@@ -11,7 +12,7 @@ export default function ContactSection() {
     const handleClose = () => setShow(false);
 
     const token = '7180477169:AAHyLxOhUXx4IGpmM10mtYUJ-nLPiJlgy0o';
-    const botId = '1896479864'
+    const botId = '-1002199524677'
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
     const [region, setRegion] = useState('');

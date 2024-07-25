@@ -136,14 +136,14 @@
         "name": "Ismingiz",
         "number": "Telefon Raqamingiz",
         "region": "Reklama Hududi",
-        "chek": "O'rtacha Tekshirish",
+        "chek": "Mijoz Narxi",
         "modal": {
-            "header": "Malumotlaringiz Olinndi",
+            "header": "Malumotlaringiz Olindi",
             "body": "Tez Orada Sizga Aloqaga Chiqamiz !"
         }
     },
     "advise-section": {
-        "title": "Menga tavsiya etiladi",
+        "title": "Meni Tavsiya Qilishadi",
         "subtitle": "Hozir menda 10 dan ortiq loyihalar doimiy parvarish qilinmoqda, ular uchun men har oy maksimal miqdordagi maqsadli so'rovlarni jalb qilaman",
         "advise-card": {
             "item-1": "maqsadli murojaatlar",
@@ -191,11 +191,11 @@
             "text": "Kontent rejasi, hashtaglar, postlar, tomoshabinlar bilan muloqot, aksiyalar va musobaqalar."
         },
         "bisnes-card__3": {
-            "title": "Qo'nish",
+            "title": "Sotuv Taklifi",
             "text": "Prototip, sotiladigan matnlar, dizayn, tartib, triggerlar, etakchi shakllar."
         },
         "bisnes-card__4": {
-            "title": "Maqsadli",
+            "title": "Kreativlar",
             "text": "Takliflar, kreativlar, reklamalar, maqsadli auditoriya uchun segmentatsiya, takomillashtirish.."
         },
         "bisnes-card__5": {
@@ -214,7 +214,7 @@
         "number": "+998 (99) 999-99-99",
         "xabar": "Savolingizni Yozing",
         "button": "Savol Berish",
-        "under-text": "@2015-2022. Barcha huquqlar himoyalanganMaxfiylik siyosati",
+        "under-text": "© 2024 All rights reserved Limsa",
         "modal": {
             "header": "Savolingizni Qabul Qildik",
             "body": "Tez Orada sizga Aloqaga Chiqamiz"
