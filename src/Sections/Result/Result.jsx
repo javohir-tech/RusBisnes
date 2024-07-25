@@ -39,28 +39,28 @@ export default function Result() {
                         sell={'0.35$'} sellTitle={t('result-section.card-2.sellTitle')} buttonText={t('result-section.card-2.buttonText')}
                     />
                     {/* 3-card */}
-                    <BisnesCard id={'card-3'}
+                    {/* <BisnesCard id={'card-3'}
                         title={t('result-section.card-3.title')}
                         styletwo={'bisnes-card__data left'}
                         style={'bisnes-card mt-5 me-auto'}
                         subtitle={t('result-section.card-3.subtitle')}
                         reklam={'300'} reklamTitle={t('result-section.card-3.reklamTitle')}
                         sell={'0,77$'} sellTitle={t('result-section.card-3.sellTitle')} buttonText={t('result-section.card-3.buttonText')}
-                    />
+                    /> */}
                     {/* new Cards */}
                     <div className='my-5 text-center'>
                         {open !== "d-none" ? "" : <button className='open-button px-5 py-3 rounded-pill bg-primary text-light border-0' onClick={OpenNewCards}>{t('newButton')}</button>}
                     </div>
                     {/* 4-card */}
                     <div className={open}>
-                        <BisnesCard id={'card-4'}
+                        {/* <BisnesCard id={'card-4'}
                             title={t('result-section.card-4.title')}
                             styletwo={'bisnes-card__data rigth'}
                             style={'bisnes-card mt-5 ms-auto'}
                             subtitle={t('result-section.card-4.subtitle')}
                             reklam={'626'} reklamTitle={t('result-section.card-4.reklamTitle')}
                             sell={'0.32$'} sellTitle={t('result-section.card-4.sellTitle')} buttonText={t('result-section.card-4.buttonText')}
-                        />
+                        /> */}
                         {/* 5-card */}
                         {/* <BisnesCard id={'card-1'}
                             title={t('result-section.card-5.title')}
