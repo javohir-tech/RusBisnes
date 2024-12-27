@@ -1,7 +1,6 @@
 import React from 'react'
 import './AdviseSection.css'
 import AdviseCard from '../../Components/AdviseCard/AdviseCard'
-import ButtonCom from '../../Components/Button/Button'
 import sergey from '../../assets/advise-card-1.png'
 import card__2 from '../../assets/card-2.png'
 import card__3 from '../../assets/card-3.png'

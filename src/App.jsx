@@ -12,7 +12,6 @@ import Bisnes from './Sections/BisnesSection/Bisnes';
 import Footer from './Sections/Footer/Footer';
 import './App.css'
 
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -35,9 +34,9 @@ function App() {
       {/* strategiya section */}
       <Strategiya />
       {/* bisnes section */}
-      <Bisnes/>
-        {/* footer section */}
-      <Footer/>
+      <Bisnes />
+      {/* footer section */}
+      <Footer />
     </>
   )
 }

@@ -101,7 +101,7 @@ export default function Footer() {
                                 </Form.Group>
                                 <ButtonCom text={t('footer.button')} style={'main-button w-100'} />
                             </Form>
-                        </div>
+                        </div>``
                     </div>
                     <div className='text-center my-5'>
                         <h3 className='footer-under__text'>{t('footer.under-text')}</h3>
